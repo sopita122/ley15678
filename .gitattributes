@@ -1,0 +1,23 @@
+
+# Detectar automáticamente archivos de texto
+* text=auto
+
+# Archivos Python
+*.py text eol=lf
+
+# Archivos de documentación
+*.md text eol=lf
+*.txt text eol=lf
+
+# Archivos de configuración
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# Documentos PDF e imágenes: tratar como binarios
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+
